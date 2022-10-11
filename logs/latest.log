@@ -1,42 +1,367 @@
-[21:23:07] [ServerMain/INFO]: Building unoptimized datafixer
-[21:23:08] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[21:23:09] [ServerMain/INFO]: Loaded 7 recipes
-[21:23:10] [Server thread/INFO]: Starting minecraft server version 1.19.2
-[21:23:10] [Server thread/INFO]: Loading properties
-[21:23:10] [Server thread/INFO]: This server is running Paper version git-Paper-201 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT) (Git: 57555b8)
-[21:23:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:23:10] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:23:10] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
-[21:23:10] [Server thread/INFO]: Default game type: SURVIVAL
-[21:23:10] [Server thread/INFO]: Generating keypair
-[21:23:10] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:23:10] [Server thread/INFO]: Using default channel type
-[21:23:10] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[21:23:10] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[21:23:10] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:23:10] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:23:10] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:23:10] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:23:10] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:23:10] [Server thread/INFO]: Preparing level "world"
-[21:23:11] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:23:11] [Server thread/INFO]: Time elapsed: 81 ms
-[21:23:11] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[21:23:11] [Server thread/INFO]: Time elapsed: 31 ms
-[21:23:11] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[21:23:11] [Server thread/INFO]: Time elapsed: 27 ms
-[21:23:11] [Server thread/INFO]: Running delayed init tasks
-[21:23:11] [Server thread/INFO]: Done (1.393s)! For help, type "help"
-[21:23:11] [Server thread/INFO]: Timings Reset
-[21:27:06] [User Authenticator #0/INFO]: UUID of player zero is 68267c17-f246-34a7-a412-65cddee90f33
-[21:27:06] [Server thread/INFO]: zero joined the game
-[21:27:06] [Server thread/INFO]: zero[/127.0.0.1:50675] logged in with entity id 136 at ([world]-1.5, 66.0, 5.5)
-[21:29:00] [Server thread/INFO]: zero lost connection: Disconnected
-[21:29:00] [Server thread/INFO]: zero left the game
-[21:30:37] [Server thread/INFO]: Stopping server
-[21:30:37] [Server thread/INFO]: Saving players
-[21:30:37] [Server thread/INFO]: Saving worlds
-[21:30:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[21:30:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[21:30:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[21:30:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[09:26:45] [ServerMain/INFO]: Building unoptimized datafixer
+[09:26:46] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09:26:48] [ServerMain/INFO]: Loaded 7 recipes
+[09:26:49] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[09:26:49] [Server thread/INFO]: Loading properties
+[09:26:49] [Server thread/INFO]: This server is running Paper version git-Paper-201 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT) (Git: 57555b8)
+[09:26:49] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[09:26:49] [Server thread/INFO]: Using 4 threads for Netty based IO
+[09:26:49] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[09:26:49] [Server thread/INFO]: Default game type: SURVIVAL
+[09:26:49] [Server thread/INFO]: Generating keypair
+[09:26:49] [Server thread/INFO]: Starting Minecraft server on *:25565
+[09:26:49] [Server thread/INFO]: Using default channel type
+[09:26:50] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[09:26:50] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[09:26:50] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[09:26:50] [Server thread/INFO]: [Essentials] Loading Essentials v2.20.0-dev+9-dc7fb91
+[09:26:50] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.20.0-dev+9-dc7fb91
+[09:26:50] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.20.0-dev+9-dc7fb91
+[09:26:50] [Server thread/INFO]: [EssentialsDiscord] Loading EssentialsDiscord v2.20.0-dev+9-dc7fb91
+[09:26:50] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[09:26:50] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[09:26:50] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.20.0-dev+9-dc7fb91 which is not a depend or softdepend of this plugin.
+[09:26:50] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[09:26:50] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[09:26:50] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[09:26:50] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[09:26:50] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[09:26:50] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[09:26:50] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[09:26:50] [Server thread/INFO]: Preparing level "world"
+[09:26:51] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[09:26:51] [Server thread/INFO]: Time elapsed: 94 ms
+[09:26:51] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[09:26:51] [Server thread/INFO]: Time elapsed: 23 ms
+[09:26:51] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[09:26:51] [Server thread/INFO]: Time elapsed: 25 ms
+[09:26:51] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.0-dev+9-dc7fb91
+[09:26:52] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[09:26:52] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[09:26:52] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
+[09:26:52] [Server thread/INFO]: [Essentials] Found 1 files to convert...
+[09:26:52] [Server thread/INFO]: [Essentials] Converted 0/1
+[09:26:52] [Server thread/INFO]: [Essentials] Ban format update complete.
+[09:26:52] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
+[09:26:52] [Server thread/INFO]: [Essentials] Done converting ignore list.
+[09:26:52] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
+[09:26:52] [Server thread/INFO]: [Essentials] Done converting legacy userdata keys to Configurate.
+[09:26:52] [Server thread/INFO]: [Essentials] Done converting mail list.
+[09:26:52] [Server thread/INFO]: [Essentials] #===========================================================================#
+[09:26:52] [Server thread/INFO]: [Essentials]  EssentialsX will now purge any NPC accounts which were incorrectly created.
+[09:26:52] [Server thread/INFO]: [Essentials]  Only NPC accounts with the default starting balance will be deleted. If
+[09:26:52] [Server thread/INFO]: [Essentials]  they turn out to be valid NPC accounts, they will be re-created as needed.
+[09:26:52] [Server thread/INFO]: [Essentials]  Any files deleted here will be backed up to the 
+[09:26:52] [Server thread/INFO]: [Essentials]  "plugins/Essentials/userdata-npc-backup" folder. If you notice any files
+[09:26:52] [Server thread/INFO]: [Essentials]  have been purged incorrectly, you should restore it from the backup and
+[09:26:52] [Server thread/INFO]: [Essentials]  report it to us on GitHub:
+[09:26:52] [Server thread/INFO]: [Essentials]  https://github.com/EssentialsX/Essentials/issues/new/choose
+[09:26:52] [Server thread/INFO]: [Essentials] 
+[09:26:52] [Server thread/INFO]: [Essentials]  NOTE: This is a one-time process and will take several minutes if you have
+[09:26:52] [Server thread/INFO]: [Essentials]  a lot of userdata files! If you interrupt this process, EssentialsX will
+[09:26:52] [Server thread/INFO]: [Essentials]  skip the process until you rename or remove the backup folder.
+[09:26:52] [Server thread/INFO]: [Essentials] #===========================================================================#
+[09:26:52] [Server thread/INFO]: [Essentials] Found ~1 files under "plugins/Essentials/userdata"...
+[09:26:52] [Server thread/INFO]: [Essentials] #===========================================================================#
+[09:26:52] [Server thread/INFO]: [Essentials]  EssentialsX has finished purging NPC accounts.
+[09:26:52] [Server thread/INFO]: [Essentials] 
+[09:26:52] [Server thread/INFO]: [Essentials]  Deleted accounts: 0
+[09:26:52] [Server thread/INFO]: [Essentials]  Total accounts processed: 1
+[09:26:52] [Server thread/INFO]: [Essentials] 
+[09:26:52] [Server thread/INFO]: [Essentials]  Purged accounts have been backed up to
+[09:26:52] [Server thread/INFO]: [Essentials]  "plugins/Essentials/userdata-npc-backup", and can be restored from there
+[09:26:52] [Server thread/INFO]: [Essentials]  if needed. Please report any files which have been incorrectly deleted
+[09:26:52] [Server thread/INFO]: [Essentials]  to us on GitHub:
+[09:26:52] [Server thread/INFO]: [Essentials]  https://github.com/EssentialsX/Essentials/issues/new/choose
+[09:26:52] [Server thread/INFO]: [Essentials] #===========================================================================#
+[09:26:52] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
+[09:26:52] [Server thread/INFO]: [Essentials] Using locale ru_RU
+[09:26:52] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[09:26:52] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[09:26:52] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[09:26:52] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[09:26:52] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.20.0-dev+9-dc7fb91
+[09:26:52] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[09:26:52] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.20.0-dev+9-dc7fb91
+[09:26:52] [Server thread/INFO]: [EssentialsChat] Secure signed chat and previews are enabled.
+[09:26:52] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[09:26:52] [Server thread/INFO]: [EssentialsDiscord] Enabling EssentialsDiscord v2.20.0-dev+9-dc7fb91
+[09:26:52] [Server thread/INFO]: [EssentialsDiscord] Starting Metrics. Opt-out using the global bStats config.
+[09:26:52] [Server thread/INFO]: [EssentialsDiscord] Попытка входа в Discord...
+[09:26:52] [Server thread/ERROR]: [EssentialsDiscord] Произошла ошибка при входе в Discord, что привело к отключению плагина: 
+Токен не предоставлен! Пожалуйста, следуйте руководству в конфигурации для верной настройки плагина.
+[09:26:52] [Server thread/INFO]: Running delayed init tasks
+[09:26:52] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[09:26:52] [Server thread/INFO]: Done (3.418s)! For help, type "help"
+[09:26:52] [Server thread/INFO]: Timings Reset
+[09:26:52] [Craft Scheduler Thread - 2 - Vault/INFO]: [Vault] Checking for Updates ... 
+[09:26:52] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Получение информации о версии...
+[09:26:53] [Craft Scheduler Thread - 2 - Vault/INFO]: [Vault] No new version available
+[09:27:06] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[09:27:11] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[09:27:19] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /help 
+[09:27:19] [Server thread/INFO]: Для просмотра помощи из консоли введите '?'.
+[09:27:41] [Server thread/INFO]: --------- Help: Index ---------------------------
+[09:27:41] [Server thread/INFO]: Use /help [n] to get page n of help.
+[09:27:41] [Server thread/INFO]: Aliases: Lists command aliases
+[09:27:41] [Server thread/INFO]: Bukkit: All commands for Bukkit
+[09:27:41] [Server thread/INFO]: Essentials: All commands for Essentials
+[09:27:41] [Server thread/INFO]: EssentialsChat: All commands for EssentialsChat
+[09:27:41] [Server thread/INFO]: EssentialsDiscord: All commands for EssentialsDiscord
+[09:27:41] [Server thread/INFO]: EssentialsSpawn: All commands for EssentialsSpawn
+[09:27:41] [Server thread/INFO]: Minecraft: All commands for Minecraft
+[09:27:41] [Server thread/INFO]: Vault: All commands for Vault
+[09:27:41] [Server thread/INFO]: /advancement: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /afk: Отмечает вас как отошедшего.
+[09:27:41] [Server thread/INFO]: /antioch: Небольшой сюрприз для операторов.
+[09:27:41] [Server thread/INFO]: /anvil: Открывает наковальню.
+[09:27:41] [Server thread/INFO]: /attribute: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /back: Телепортирует вас на прежнюю локацию перед tp/spawn/warp.
+[09:27:41] [Server thread/INFO]: /backup: Запускает резервное копирование, если это указано в конфигурации.
+[09:27:41] [Server thread/INFO]: /balance: Отображает текущий баланс игрока.
+[09:27:41] [Server thread/INFO]: /balancetop: Выводит топ богачей.
+[09:27:41] [Server thread/INFO]: /ban: Банит игрока.
+[09:27:41] [Server thread/INFO]: /ban-ip: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /banip: Банит IP-адрес.
+[09:27:41] [Server thread/INFO]: /banlist: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /beezooka: Бросает взрывную пчелу в вашего противника.
+[09:27:41] [Server thread/INFO]: /bigtree: Создает большое дерево на месте вашего взгляда.
+[09:27:41] [Server thread/INFO]: /book: Позволяет открывать и редактировать подписанные книги.
+[09:27:41] [Server thread/INFO]: /bossbar: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /break: Разрушает блок, на который вы смотрите.
+[09:27:41] [Server thread/INFO]: /broadcast: Объявляет сообщение на весь сервер.
+[09:27:41] [Server thread/INFO]: /broadcastworld: Объявляет сообщение в мире.
+[09:27:41] [Server thread/INFO]: /bukkit:help: Shows the help menu
+[09:27:41] [Server thread/INFO]: /burn: Поджигает игрока.
+[09:27:41] [Server thread/INFO]: /cartographytable: Открывает стол картографа.
+[09:27:41] [Server thread/INFO]: /clearinventory: Удаляет все предметы в вашем инвентаре.
+[09:27:41] [Server thread/INFO]: /clearinventoryconfirmtoggle: Переключает подтверждение очистки инвентаря.
+[09:27:41] [Server thread/INFO]: /clone: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /compass: Описывает вашу текущую локацию.
+[09:27:41] [Server thread/INFO]: /condense: Сжимает предметы в блоки.
+[09:27:41] [Server thread/INFO]: /createkit: Создает набор прямо в игре!
+[09:27:41] [Server thread/INFO]: /customtext: Позволяет создавать собственные текстовые команды.
+[09:27:41] [Server thread/INFO]: /data: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /datapack: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /debug: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /defaultgamemode: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /delhome: Удаляет дом.
+[09:27:41] [Server thread/INFO]: /deljail: Удаляет тюрьму.
+[09:27:41] [Server thread/INFO]: /delkit: Удаляет указанный набор.
+[09:27:41] [Server thread/INFO]: /delwarp: Удаляет указанный варп.
+[09:27:41] [Server thread/INFO]: /deop: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /depth: Отображает текущую глубину относительно уровня моря.
+[09:27:41] [Server thread/INFO]: /difficulty: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /discord: Sends the discord invite link to the player.
+[09:27:41] [Server thread/INFO]: /discordbroadcast: Broadcasts a message to the specified Discord channel.
+[09:27:41] [Server thread/INFO]: /disposal: Открывает портативное меню утилизации.
+[09:27:41] [Server thread/INFO]: /eco: Управляет экономикой сервера.
+[09:27:41] [Server thread/INFO]: /editsign: Редактирует табличку в мире.
+[09:27:41] [Server thread/INFO]: /effect: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /enchant: Зачаровывает предмет в руке.
+[09:27:41] [Server thread/INFO]: /enderchest: Открывает эндер-сундук.
+[09:27:41] [Server thread/INFO]: /essentials: Перезагружает Essentials.
+[09:27:41] [Server thread/INFO]: /execute: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /exp: Выдает, устанавливает, сбрасывает или показывает опыт игрока.
+[09:27:41] [Server thread/INFO]: /experience: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /ext: Тушит игроков.
+[09:27:41] [Server thread/INFO]: /feed: Утоляет голод.
+[09:27:41] [Server thread/INFO]: /fill: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /fireball: Бросает файербол или иные снаряды.
+[09:27:41] [Server thread/INFO]: /firework: Позволяет изменить стак фейерверков.
+[09:27:41] [Server thread/INFO]: /fly: Лети, как птица!
+[09:27:41] [Server thread/INFO]: /forceload: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /function: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /gamemode: Изменяет игровой режим.
+[09:27:41] [Server thread/INFO]: /gamerule: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /gc: Выводит отчет о тиках, памяти и времени работы.
+[09:27:41] [Server thread/INFO]: /getpos: Показывает ваши координаты или координаты указанного игрока.
+[09:27:41] [Server thread/INFO]: /give: Выдает игроку предмет.
+[09:27:41] [Server thread/INFO]: /god: Активирует ваши божественные силы.
+[09:27:41] [Server thread/INFO]: /grindstone: Открывает точило.
+[09:27:41] [Server thread/INFO]: /hat: Надевает на вас крутой головной убор.
+[09:27:41] [Server thread/INFO]: /heal: Исцеляет вас или указанного игрока.
+[09:27:41] [Server thread/INFO]: /help: Выводит список доступных команд.
+[09:27:41] [Server thread/INFO]: /helpop: Отсылает сообщение онлайн администраторам.
+[09:27:41] [Server thread/INFO]: /home: Телепортирует к вашему дому.
+[09:27:41] [Server thread/INFO]: /ice: Охлаждает игрока
+[09:27:41] [Server thread/INFO]: /ignore: Переключает игнорирование указанного игрока.
+[09:27:41] [Server thread/INFO]: /info: Показывает информацию, установленную владельцем сервера.
+[09:27:41] [Server thread/INFO]: /invsee: Показывает инвентарь другого игрока.
+[09:27:41] [Server thread/INFO]: /item: Создает предмет.
+[09:27:41] [Server thread/INFO]: /itemdb: Ищет предмет в базе данных.
+[09:27:41] [Server thread/INFO]: /itemlore: Редактирует описание предмета.
+[09:27:41] [Server thread/INFO]: /itemname: Переименовывает предмет.
+[09:27:41] [Server thread/INFO]: /jails: Выводит список всех тюрем.
+[09:27:41] [Server thread/INFO]: /jfr: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /jump: Перемещает к ближайшему блоку в точке взора.
+[09:27:41] [Server thread/INFO]: /kick: Выкидывает с сервера указанного игрока.
+[09:27:41] [Server thread/INFO]: /kickall: Выкидывает с сервера всех игроков, кроме тех, у кого есть защита.
+[09:27:41] [Server thread/INFO]: /kill: Убивает указанного игрока.
+[09:27:41] [Server thread/INFO]: /kit: Выдает указанный набор или показывает доступные.
+[09:27:41] [Server thread/INFO]: /kitreset: Сбрасывает перезарядку на указанном наборе.
+[09:27:41] [Server thread/INFO]: /kittycannon: Бросает взрывного котенка в вашего противника.
+[09:27:41] [Server thread/INFO]: /lightning: Сила Тора. Поражает молнией одну точку или игрока.
+[09:27:41] [Server thread/INFO]: /list: Показывает всех онлайн игроков.
+[09:27:41] [Server thread/INFO]: /locate: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /loom: Открывает ткацкий станок.
+[09:27:41] [Server thread/INFO]: /loot: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /mail: Управляет вашей серверной почтой.
+[09:27:41] [Server thread/INFO]: /me: Описывает действие от лица игрока.
+[09:27:41] [Server thread/INFO]: /minecraft:ban: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /minecraft:clear: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /minecraft:enchant: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /minecraft:gamemode: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /minecraft:give: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /minecraft:help: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /minecraft:item: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /minecraft:kick: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /minecraft:kill: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /minecraft:list: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /minecraft:me: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /minecraft:msg: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /minecraft:pardon: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /minecraft:recipe: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /minecraft:reload: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /minecraft:teleport: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /minecraft:tell: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /minecraft:time: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /minecraft:tp: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /minecraft:w: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /minecraft:weather: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /minecraft:xp: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /more: Заполняет стак предметов в руке до указанного количества или до максимального, если ничего не указано.
+[09:27:41] [Server thread/INFO]: /motd: Показывает Сообщение Дня.
+[09:27:41] [Server thread/INFO]: /msg: Отправляет приватное сообщение указанному игроку.
+[09:27:41] [Server thread/INFO]: /msgtoggle: Блокирует получение приватных сообщений.
+[09:27:41] [Server thread/INFO]: /mspt: View server tick times
+[09:27:41] [Server thread/INFO]: /mute: Устанавливает или снимает заглушение с игрока.
+[09:27:41] [Server thread/INFO]: /near: Выводит список игроков рядом с игроком или около него.
+[09:27:41] [Server thread/INFO]: /nick: Изменяет ваш никнейм или никнейм другого игрока.
+[09:27:41] [Server thread/INFO]: /nuke: Пусть смерть прольется на них дождем.
+[09:27:41] [Server thread/INFO]: /op: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /paper: Paper related commands
+[09:27:41] [Server thread/INFO]: /pardon-ip: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /particle: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /pay: Платит игроку из вашего баланса.
+[09:27:41] [Server thread/INFO]: /payconfirmtoggle: Переключает подтверждение денежных переводов.
+[09:27:41] [Server thread/INFO]: /paytoggle: Переключает прием или отклонение платежей.
+[09:27:41] [Server thread/INFO]: /perf: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /ping: Понг!
+[09:27:41] [Server thread/INFO]: /place: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /playsound: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /playtime: Показывает проведенное игроком время в игре.
+[09:27:41] [Server thread/INFO]: /plugins: Gets a list of plugins running on the server
+[09:27:41] [Server thread/INFO]: /potion: Добавляет новые эффекты к зелью.
+[09:27:41] [Server thread/INFO]: /powertool: Привязывает команду к предмету в руке.
+[09:27:41] [Server thread/INFO]: /powertooltoggle: Включает или выключает все командные инструменты.
+[09:27:41] [Server thread/INFO]: /ptime: Регулирует персональное время игрока. Добавьте в начало @, чтобы зафиксировать.
+[09:27:41] [Server thread/INFO]: /pweather: Регулирует персональную погоду игрока.
+[09:27:41] [Server thread/INFO]: /r: Быстрый ответ последнему игроку, отправившему вам сообщение.
+[09:27:41] [Server thread/INFO]: /realname: Отображает действительный никнейм игрока.
+[09:27:41] [Server thread/INFO]: /recipe: Показывает рецепты предметов.
+[09:27:41] [Server thread/INFO]: /reload: Reloads the server configuration and plugins
+[09:27:41] [Server thread/INFO]: /remove: Удаляет сущности из вашего текущего мира.
+[09:27:41] [Server thread/INFO]: /renamehome: Renames a home.
+[09:27:41] [Server thread/INFO]: /repair: Восстанавливает прочность одного или всех предметов.
+[09:27:41] [Server thread/INFO]: /rest: Оправляет вас или указанного игрока.
+[09:27:41] [Server thread/INFO]: /restart: Restarts the server
+[09:27:41] [Server thread/INFO]: /rtoggle: Изменяет, кто получит ваш быстрый ответ - последний получатель или последний отправитель.
+[09:27:41] [Server thread/INFO]: /rules: Показывает правила сервера.
+[09:27:41] [Server thread/INFO]: /save-all: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /save-off: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /save-on: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /say: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /schedule: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /scoreboard: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /seed: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /seen: Показывает время последнего выхода игрока.
+[09:27:41] [Server thread/INFO]: /sell: Продает предмет из вашей руки.
+[09:27:41] [Server thread/INFO]: /setblock: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /sethome: Устанавливает точку дома на вашей текущей локации.
+[09:27:41] [Server thread/INFO]: /setidletimeout: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /setjail: Создает тюрьму с названием, указанным в аргументе [тюрьма].
+[09:27:41] [Server thread/INFO]: /setspawn: Sets the spawn point to your current position.
+[09:27:41] [Server thread/INFO]: /settpr: Задает центр и параметры случайной телепортации.
+[09:27:41] [Server thread/INFO]: /setwarp: Создает новый варп.
+[09:27:41] [Server thread/INFO]: /setworldspawn: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /setworth: Устанавливает стоимость продажи предмета.
+[09:27:41] [Server thread/INFO]: /showkit: Показывает содержимое набора.
+[09:27:41] [Server thread/INFO]: /skull: Устанавливает владельца головы.
+[09:27:41] [Server thread/INFO]: /smithingtable: Открывает стол кузнеца.
+[09:27:41] [Server thread/INFO]: /socialspy: Переключает возможность просмотра msg/mail в чате.
+[09:27:41] [Server thread/INFO]: /spawn: Teleports to the spawn point.
+[09:27:41] [Server thread/INFO]: /spawner: Изменяет тип мобов в рассаднике.
+[09:27:41] [Server thread/INFO]: /spawnmob: Призывает моба.
+[09:27:41] [Server thread/INFO]: /spawnpoint: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /spectate: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /speed: Изменяет вашу скорость.
+[09:27:41] [Server thread/INFO]: /spigot: Spigot related commands
+[09:27:41] [Server thread/INFO]: /spreadplayers: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /stonecutter: Открывает камнерез.
+[09:27:41] [Server thread/INFO]: /stop: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /stopsound: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /sudo: Выполняет команду от лица другого игрока.
+[09:27:41] [Server thread/INFO]: /suicide: Убивает вас.
+[09:27:41] [Server thread/INFO]: /summon: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /tag: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /team: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /teammsg: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /tellraw: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /tempban: Временно банит игрока.
+[09:27:41] [Server thread/INFO]: /tempbanip: Временно банит IP-адрес.
+[09:27:41] [Server thread/INFO]: /thunder: Включает/выключает грозу.
+[09:27:41] [Server thread/INFO]: /time: Отображает/изменяет время в мире. По умолчанию - в текущем мире.
+[09:27:41] [Server thread/INFO]: /timings: Manages Spigot Timings data to see performance of the server.
+[09:27:41] [Server thread/INFO]: /title: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /tm: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /togglejail: Сажает и телепортирует игрока в указанную тюрьму, или выводит из неё.
+[09:27:41] [Server thread/INFO]: /toggleshout: Toggles whether you are talking in shout mode
+[09:27:41] [Server thread/INFO]: /top: Телепортует на самый высокий блок в этом месте.
+[09:27:41] [Server thread/INFO]: /tp: Телепортирует к игроку.
+[09:27:41] [Server thread/INFO]: /tpa: Запрашивает телепорт к указанному игроку.
+[09:27:41] [Server thread/INFO]: /tpaall: Запрашивает всех онлайн игроков телепортироваться к вам.
+[09:27:41] [Server thread/INFO]: /tpacancel: Отменяет все исходящие запросы на телепорт. Укажите [игрок] для отмены запросов к конкретному игроку.
+[09:27:41] [Server thread/INFO]: /tpaccept: Принимает запросы на телепортацию.
+[09:27:41] [Server thread/INFO]: /tpahere: Запрашивает указанного игрока телепортироваться к вам.
+[09:27:41] [Server thread/INFO]: /tpall: Телепортирует всех онлайн игроков к другому игроку.
+[09:27:41] [Server thread/INFO]: /tpauto: Включает автоматический прием запросов на телепортацию.
+[09:27:41] [Server thread/INFO]: /tpdeny: Отклоняет запросы на телепортацию.
+[09:27:41] [Server thread/INFO]: /tphere: Телепортирует игрока к вам.
+[09:27:41] [Server thread/INFO]: /tpo: Принуждает к телепортации, игнорируя /tptpggle.
+[09:27:41] [Server thread/INFO]: /tpoffline: Телепортирует к месту последнего выхода игрока.
+[09:27:41] [Server thread/INFO]: /tpohere: Принуждает к телепортации сюда, игнорируя /tptpggle.
+[09:27:41] [Server thread/INFO]: /tppos: Телепортирует по указанным координатам.
+[09:27:41] [Server thread/INFO]: /tpr: Телепортирует в случайное место.
+[09:27:41] [Server thread/INFO]: /tps: Gets the current ticks per second for the server
+[09:27:41] [Server thread/INFO]: /tptoggle: Блокирует все виды телепортации.
+[09:27:41] [Server thread/INFO]: /tree: Создает дерево на месте вашего взгляда.
+[09:27:41] [Server thread/INFO]: /trigger: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /unban: Разбанивает указанного игрока.
+[09:27:41] [Server thread/INFO]: /unbanip: Разбанивает указанный IP-адрес.
+[09:27:41] [Server thread/INFO]: /unlimited: Позволяет неограниченно ставить предметы.
+[09:27:41] [Server thread/INFO]: /vanish: Скрывает вас от других игроков.
+[09:27:41] [Server thread/INFO]: /vault-convert: Converts all data in economy1 and dumps it into economy2
+[09:27:41] [Server thread/INFO]: /vault-info: Displays information about Vault
+[09:27:41] [Server thread/INFO]: /version: Gets the version of this server including any plugins in use
+[09:27:41] [Server thread/INFO]: /warp: Выводит список всех варпов, или перемещает на указанный варп.
+[09:27:41] [Server thread/INFO]: /warpinfo: Отображает информцию об указанном варпе.
+[09:27:41] [Server thread/INFO]: /weather: Устанавливает погоду.
+[09:27:41] [Server thread/INFO]: /whitelist: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /whois: Показывает имя игрока за никнеймом.
+[09:27:41] [Server thread/INFO]: /workbench: Открывает верстак.
+[09:27:41] [Server thread/INFO]: /world: Перемещает между мирами.
+[09:27:41] [Server thread/INFO]: /worldborder: A Mojang provided command.
+[09:27:41] [Server thread/INFO]: /worth: Вычисляет стоимость указанного предмета или предмета в руке.
+[09:29:48] [User Authenticator #0/INFO]: UUID of player zero is 68267c17-f246-34a7-a412-65cddee90f33
+[09:29:48] [Server thread/INFO]: zero joined the game
+[09:29:48] [Server thread/INFO]: zero[/127.0.0.1:65173] logged in with entity id 219 at ([world]-8.37610750117711, 68.0, 132.45489170578898)
+[09:30:00] [Server thread/INFO]: zero issued server command: /pl
+[09:30:26] [Server thread/INFO]: zero has made the advancement [Monster Hunter]
+[09:30:52] [Server thread/INFO]: Made zero a server operator
+[09:31:02] [Server thread/INFO]: zero issued server command: /ga
+[09:31:19] [Server thread/INFO]: zero issued server command: /gamemode creative zero
+[09:33:15] [Server thread/INFO]: zero issued server command: /te
+[09:33:59] [Server thread/INFO]: zero issued server command: /time set day world
+[09:36:39] [Server thread/INFO]: zero lost connection: Disconnected
+[09:36:39] [Server thread/INFO]: zero left the game

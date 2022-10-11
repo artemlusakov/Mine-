@@ -1,0 +1,252 @@
+[09:27:41 INFO]: --------- Help: Index ---------------------------
+[09:27:41 INFO]: Use /help [n] to get page n of help.
+[09:27:41 INFO]: Aliases: Lists command aliases
+[09:27:41 INFO]: Bukkit: All commands for Bukkit
+[09:27:41 INFO]: Essentials: All commands for Essentials
+[09:27:41 INFO]: EssentialsChat: All commands for EssentialsChat
+[09:27:41 INFO]: EssentialsDiscord: All commands for EssentialsDiscord
+[09:27:41 INFO]: EssentialsSpawn: All commands for EssentialsSpawn
+[09:27:41 INFO]: Minecraft: All commands for Minecraft
+[09:27:41 INFO]: Vault: All commands for Vault
+[09:27:41 INFO]: /advancement: A Mojang provided command.
+[09:27:41 INFO]: /afk: Отмечает вас как отошедшего.
+[09:27:41 INFO]: /antioch: Небольшой сюрприз для операторов.
+[09:27:41 INFO]: /anvil: Открывает наковальню.
+[09:27:41 INFO]: /attribute: A Mojang provided command.
+[09:27:41 INFO]: /back: Телепортирует вас на прежнюю локацию перед tp/spawn/warp.
+[09:27:41 INFO]: /backup: Запускает резервное копирование, если это указано в конфигурации.
+[09:27:41 INFO]: /balance: Отображает текущий баланс игрока.
+[09:27:41 INFO]: /balancetop: Выводит топ богачей.
+[09:27:41 INFO]: /ban: Банит игрока.
+[09:27:41 INFO]: /ban-ip: A Mojang provided command.
+[09:27:41 INFO]: /banip: Банит IP-адрес.
+[09:27:41 INFO]: /banlist: A Mojang provided command.
+[09:27:41 INFO]: /beezooka: Бросает взрывную пчелу в вашего противника.
+[09:27:41 INFO]: /bigtree: Создает большое дерево на месте вашего взгляда.
+[09:27:41 INFO]: /book: Позволяет открывать и редактировать подписанные книги.
+[09:27:41 INFO]: /bossbar: A Mojang provided command.
+[09:27:41 INFO]: /break: Разрушает блок, на который вы смотрите.
+[09:27:41 INFO]: /broadcast: Объявляет сообщение на весь сервер.
+[09:27:41 INFO]: /broadcastworld: Объявляет сообщение в мире.
+[09:27:41 INFO]: /bukkit:help: Shows the help menu
+[09:27:41 INFO]: /burn: Поджигает игрока.
+[09:27:41 INFO]: /cartographytable: Открывает стол картографа.
+[09:27:41 INFO]: /clearinventory: Удаляет все предметы в вашем инвентаре.
+[09:27:41 INFO]: /clearinventoryconfirmtoggle: Переключает подтверждение очистки инвентаря.
+[09:27:41 INFO]: /clone: A Mojang provided command.
+[09:27:41 INFO]: /compass: Описывает вашу текущую локацию.
+[09:27:41 INFO]: /condense: Сжимает предметы в блоки.
+[09:27:41 INFO]: /createkit: Создает набор прямо в игре!
+[09:27:41 INFO]: /customtext: Позволяет создавать собственные текстовые команды.
+[09:27:41 INFO]: /data: A Mojang provided command.
+[09:27:41 INFO]: /datapack: A Mojang provided command.
+[09:27:41 INFO]: /debug: A Mojang provided command.
+[09:27:41 INFO]: /defaultgamemode: A Mojang provided command.
+[09:27:41 INFO]: /delhome: Удаляет дом.
+[09:27:41 INFO]: /deljail: Удаляет тюрьму.
+[09:27:41 INFO]: /delkit: Удаляет указанный набор.
+[09:27:41 INFO]: /delwarp: Удаляет указанный варп.
+[09:27:41 INFO]: /deop: A Mojang provided command.
+[09:27:41 INFO]: /depth: Отображает текущую глубину относительно уровня моря.
+[09:27:41 INFO]: /difficulty: A Mojang provided command.
+[09:27:41 INFO]: /discord: Sends the discord invite link to the player.
+[09:27:41 INFO]: /discordbroadcast: Broadcasts a message to the specified Discord channel.
+[09:27:41 INFO]: /disposal: Открывает портативное меню утилизации.
+[09:27:41 INFO]: /eco: Управляет экономикой сервера.
+[09:27:41 INFO]: /editsign: Редактирует табличку в мире.
+[09:27:41 INFO]: /effect: A Mojang provided command.
+[09:27:41 INFO]: /enchant: Зачаровывает предмет в руке.
+[09:27:41 INFO]: /enderchest: Открывает эндер-сундук.
+[09:27:41 INFO]: /essentials: Перезагружает Essentials.
+[09:27:41 INFO]: /execute: A Mojang provided command.
+[09:27:41 INFO]: /exp: Выдает, устанавливает, сбрасывает или показывает опыт игрока.
+[09:27:41 INFO]: /experience: A Mojang provided command.
+[09:27:41 INFO]: /ext: Тушит игроков.
+[09:27:41 INFO]: /feed: Утоляет голод.
+[09:27:41 INFO]: /fill: A Mojang provided command.
+[09:27:41 INFO]: /fireball: Бросает файербол или иные снаряды.
+[09:27:41 INFO]: /firework: Позволяет изменить стак фейерверков.
+[09:27:41 INFO]: /fly: Лети, как птица!
+[09:27:41 INFO]: /forceload: A Mojang provided command.
+[09:27:41 INFO]: /function: A Mojang provided command.
+[09:27:41 INFO]: /gamemode: Изменяет игровой режим.
+[09:27:41 INFO]: /gamerule: A Mojang provided command.
+[09:27:41 INFO]: /gc: Выводит отчет о тиках, памяти и времени работы.
+[09:27:41 INFO]: /getpos: Показывает ваши координаты или координаты указанного игрока.
+[09:27:41 INFO]: /give: Выдает игроку предмет.
+[09:27:41 INFO]: /god: Активирует ваши божественные силы.
+[09:27:41 INFO]: /grindstone: Открывает точило.
+[09:27:41 INFO]: /hat: Надевает на вас крутой головной убор.
+[09:27:41 INFO]: /heal: Исцеляет вас или указанного игрока.
+[09:27:41 INFO]: /help: Выводит список доступных команд.
+[09:27:41 INFO]: /helpop: Отсылает сообщение онлайн администраторам.
+[09:27:41 INFO]: /home: Телепортирует к вашему дому.
+[09:27:41 INFO]: /ice: Охлаждает игрока
+[09:27:41 INFO]: /ignore: Переключает игнорирование указанного игрока.
+[09:27:41 INFO]: /info: Показывает информацию, установленную владельцем сервера.
+[09:27:41 INFO]: /invsee: Показывает инвентарь другого игрока.
+[09:27:41 INFO]: /item: Создает предмет.
+[09:27:41 INFO]: /itemdb: Ищет предмет в базе данных.
+[09:27:41 INFO]: /itemlore: Редактирует описание предмета.
+[09:27:41 INFO]: /itemname: Переименовывает предмет.
+[09:27:41 INFO]: /jails: Выводит список всех тюрем.
+[09:27:41 INFO]: /jfr: A Mojang provided command.
+[09:27:41 INFO]: /jump: Перемещает к ближайшему блоку в точке взора.
+[09:27:41 INFO]: /kick: Выкидывает с сервера указанного игрока.
+[09:27:41 INFO]: /kickall: Выкидывает с сервера всех игроков, кроме тех, у кого есть защита.
+[09:27:41 INFO]: /kill: Убивает указанного игрока.
+[09:27:41 INFO]: /kit: Выдает указанный набор или показывает доступные.
+[09:27:41 INFO]: /kitreset: Сбрасывает перезарядку на указанном наборе.
+[09:27:41 INFO]: /kittycannon: Бросает взрывного котенка в вашего противника.
+[09:27:41 INFO]: /lightning: Сила Тора. Поражает молнией одну точку или игрока.
+[09:27:41 INFO]: /list: Показывает всех онлайн игроков.
+[09:27:41 INFO]: /locate: A Mojang provided command.
+[09:27:41 INFO]: /loom: Открывает ткацкий станок.
+[09:27:41 INFO]: /loot: A Mojang provided command.
+[09:27:41 INFO]: /mail: Управляет вашей серверной почтой.
+[09:27:41 INFO]: /me: Описывает действие от лица игрока.
+[09:27:41 INFO]: /minecraft:ban: A Mojang provided command.
+[09:27:41 INFO]: /minecraft:clear: A Mojang provided command.
+[09:27:41 INFO]: /minecraft:enchant: A Mojang provided command.
+[09:27:41 INFO]: /minecraft:gamemode: A Mojang provided command.
+[09:27:41 INFO]: /minecraft:give: A Mojang provided command.
+[09:27:41 INFO]: /minecraft:help: A Mojang provided command.
+[09:27:41 INFO]: /minecraft:item: A Mojang provided command.
+[09:27:41 INFO]: /minecraft:kick: A Mojang provided command.
+[09:27:41 INFO]: /minecraft:kill: A Mojang provided command.
+[09:27:41 INFO]: /minecraft:list: A Mojang provided command.
+[09:27:41 INFO]: /minecraft:me: A Mojang provided command.
+[09:27:41 INFO]: /minecraft:msg: A Mojang provided command.
+[09:27:41 INFO]: /minecraft:pardon: A Mojang provided command.
+[09:27:41 INFO]: /minecraft:recipe: A Mojang provided command.
+[09:27:41 INFO]: /minecraft:reload: A Mojang provided command.
+[09:27:41 INFO]: /minecraft:teleport: A Mojang provided command.
+[09:27:41 INFO]: /minecraft:tell: A Mojang provided command.
+[09:27:41 INFO]: /minecraft:time: A Mojang provided command.
+[09:27:41 INFO]: /minecraft:tp: A Mojang provided command.
+[09:27:41 INFO]: /minecraft:w: A Mojang provided command.
+[09:27:41 INFO]: /minecraft:weather: A Mojang provided command.
+[09:27:41 INFO]: /minecraft:xp: A Mojang provided command.
+[09:27:41 INFO]: /more: Заполняет стак предметов в руке до указанного количества или до максимального, если ничего не указано.
+[09:27:41 INFO]: /motd: Показывает Сообщение Дня.
+[09:27:41 INFO]: /msg: Отправляет приватное сообщение указанному игроку.
+[09:27:41 INFO]: /msgtoggle: Блокирует получение приватных сообщений.
+[09:27:41 INFO]: /mspt: View server tick times
+[09:27:41 INFO]: /mute: Устанавливает или снимает заглушение с игрока.
+[09:27:41 INFO]: /near: Выводит список игроков рядом с игроком или около него.
+[09:27:41 INFO]: /nick: Изменяет ваш никнейм или никнейм другого игрока.
+[09:27:41 INFO]: /nuke: Пусть смерть прольется на них дождем.
+[09:27:41 INFO]: /op: A Mojang provided command.
+[09:27:41 INFO]: /paper: Paper related commands
+[09:27:41 INFO]: /pardon-ip: A Mojang provided command.
+[09:27:41 INFO]: /particle: A Mojang provided command.
+[09:27:41 INFO]: /pay: Платит игроку из вашего баланса.
+[09:27:41 INFO]: /payconfirmtoggle: Переключает подтверждение денежных переводов.
+[09:27:41 INFO]: /paytoggle: Переключает прием или отклонение платежей.
+[09:27:41 INFO]: /perf: A Mojang provided command.
+[09:27:41 INFO]: /ping: Понг!
+[09:27:41 INFO]: /place: A Mojang provided command.
+[09:27:41 INFO]: /playsound: A Mojang provided command.
+[09:27:41 INFO]: /playtime: Показывает проведенное игроком время в игре.
+[09:27:41 INFO]: /plugins: Gets a list of plugins running on the server
+[09:27:41 INFO]: /potion: Добавляет новые эффекты к зелью.
+[09:27:41 INFO]: /powertool: Привязывает команду к предмету в руке.
+[09:27:41 INFO]: /powertooltoggle: Включает или выключает все командные инструменты.
+[09:27:41 INFO]: /ptime: Регулирует персональное время игрока. Добавьте в начало @, чтобы зафиксировать.
+[09:27:41 INFO]: /pweather: Регулирует персональную погоду игрока.
+[09:27:41 INFO]: /r: Быстрый ответ последнему игроку, отправившему вам сообщение.
+[09:27:41 INFO]: /realname: Отображает действительный никнейм игрока.
+[09:27:41 INFO]: /recipe: Показывает рецепты предметов.
+[09:27:41 INFO]: /reload: Reloads the server configuration and plugins
+[09:27:41 INFO]: /remove: Удаляет сущности из вашего текущего мира.
+[09:27:41 INFO]: /renamehome: Renames a home.
+[09:27:41 INFO]: /repair: Восстанавливает прочность одного или всех предметов.
+[09:27:41 INFO]: /rest: Оправляет вас или указанного игрока.
+[09:27:41 INFO]: /restart: Restarts the server
+[09:27:41 INFO]: /rtoggle: Изменяет, кто получит ваш быстрый ответ - последний получатель или последний отправитель.
+[09:27:41 INFO]: /rules: Показывает правила сервера.
+[09:27:41 INFO]: /save-all: A Mojang provided command.
+[09:27:41 INFO]: /save-off: A Mojang provided command.
+[09:27:41 INFO]: /save-on: A Mojang provided command.
+[09:27:41 INFO]: /say: A Mojang provided command.
+[09:27:41 INFO]: /schedule: A Mojang provided command.
+[09:27:41 INFO]: /scoreboard: A Mojang provided command.
+[09:27:41 INFO]: /seed: A Mojang provided command.
+[09:27:41 INFO]: /seen: Показывает время последнего выхода игрока.
+[09:27:41 INFO]: /sell: Продает предмет из вашей руки.
+[09:27:41 INFO]: /setblock: A Mojang provided command.
+[09:27:41 INFO]: /sethome: Устанавливает точку дома на вашей текущей локации.
+[09:27:41 INFO]: /setidletimeout: A Mojang provided command.
+[09:27:41 INFO]: /setjail: Создает тюрьму с названием, указанным в аргументе [тюрьма].
+[09:27:41 INFO]: /setspawn: Sets the spawn point to your current position.
+[09:27:41 INFO]: /settpr: Задает центр и параметры случайной телепортации.
+[09:27:41 INFO]: /setwarp: Создает новый варп.
+[09:27:41 INFO]: /setworldspawn: A Mojang provided command.
+[09:27:41 INFO]: /setworth: Устанавливает стоимость продажи предмета.
+[09:27:41 INFO]: /showkit: Показывает содержимое набора.
+[09:27:41 INFO]: /skull: Устанавливает владельца головы.
+[09:27:41 INFO]: /smithingtable: Открывает стол кузнеца.
+[09:27:41 INFO]: /socialspy: Переключает возможность просмотра msg/mail в чате.
+[09:27:41 INFO]: /spawn: Teleports to the spawn point.
+[09:27:41 INFO]: /spawner: Изменяет тип мобов в рассаднике.
+[09:27:41 INFO]: /spawnmob: Призывает моба.
+[09:27:41 INFO]: /spawnpoint: A Mojang provided command.
+[09:27:41 INFO]: /spectate: A Mojang provided command.
+[09:27:41 INFO]: /speed: Изменяет вашу скорость.
+[09:27:41 INFO]: /spigot: Spigot related commands
+[09:27:41 INFO]: /spreadplayers: A Mojang provided command.
+[09:27:41 INFO]: /stonecutter: Открывает камнерез.
+[09:27:41 INFO]: /stop: A Mojang provided command.
+[09:27:41 INFO]: /stopsound: A Mojang provided command.
+[09:27:41 INFO]: /sudo: Выполняет команду от лица другого игрока.
+[09:27:41 INFO]: /suicide: Убивает вас.
+[09:27:41 INFO]: /summon: A Mojang provided command.
+[09:27:41 INFO]: /tag: A Mojang provided command.
+[09:27:41 INFO]: /team: A Mojang provided command.
+[09:27:41 INFO]: /teammsg: A Mojang provided command.
+[09:27:41 INFO]: /tellraw: A Mojang provided command.
+[09:27:41 INFO]: /tempban: Временно банит игрока.
+[09:27:41 INFO]: /tempbanip: Временно банит IP-адрес.
+[09:27:41 INFO]: /thunder: Включает/выключает грозу.
+[09:27:41 INFO]: /time: Отображает/изменяет время в мире. По умолчанию - в текущем мире.
+[09:27:41 INFO]: /timings: Manages Spigot Timings data to see performance of the server.
+[09:27:41 INFO]: /title: A Mojang provided command.
+[09:27:41 INFO]: /tm: A Mojang provided command.
+[09:27:41 INFO]: /togglejail: Сажает и телепортирует игрока в указанную тюрьму, или выводит из неё.
+[09:27:41 INFO]: /toggleshout: Toggles whether you are talking in shout mode
+[09:27:41 INFO]: /top: Телепортует на самый высокий блок в этом месте.
+[09:27:41 INFO]: /tp: Телепортирует к игроку.
+[09:27:41 INFO]: /tpa: Запрашивает телепорт к указанному игроку.
+[09:27:41 INFO]: /tpaall: Запрашивает всех онлайн игроков телепортироваться к вам.
+[09:27:41 INFO]: /tpacancel: Отменяет все исходящие запросы на телепорт. Укажите [игрок] для отмены запросов к конкретному игроку.
+[09:27:41 INFO]: /tpaccept: Принимает запросы на телепортацию.
+[09:27:41 INFO]: /tpahere: Запрашивает указанного игрока телепортироваться к вам.
+[09:27:41 INFO]: /tpall: Телепортирует всех онлайн игроков к другому игроку.
+[09:27:41 INFO]: /tpauto: Включает автоматический прием запросов на телепортацию.
+[09:27:41 INFO]: /tpdeny: Отклоняет запросы на телепортацию.
+[09:27:41 INFO]: /tphere: Телепортирует игрока к вам.
+[09:27:41 INFO]: /tpo: Принуждает к телепортации, игнорируя /tptpggle.
+[09:27:41 INFO]: /tpoffline: Телепортирует к месту последнего выхода игрока.
+[09:27:41 INFO]: /tpohere: Принуждает к телепортации сюда, игнорируя /tptpggle.
+[09:27:41 INFO]: /tppos: Телепортирует по указанным координатам.
+[09:27:41 INFO]: /tpr: Телепортирует в случайное место.
+[09:27:41 INFO]: /tps: Gets the current ticks per second for the server
+[09:27:41 INFO]: /tptoggle: Блокирует все виды телепортации.
+[09:27:41 INFO]: /tree: Создает дерево на месте вашего взгляда.
+[09:27:41 INFO]: /trigger: A Mojang provided command.
+[09:27:41 INFO]: /unban: Разбанивает указанного игрока.
+[09:27:41 INFO]: /unbanip: Разбанивает указанный IP-адрес.
+[09:27:41 INFO]: /unlimited: Позволяет неограниченно ставить предметы.
+[09:27:41 INFO]: /vanish: Скрывает вас от других игроков.
+[09:27:41 INFO]: /vault-convert: Converts all data in economy1 and dumps it into economy2
+[09:27:41 INFO]: /vault-info: Displays information about Vault
+[09:27:41 INFO]: /version: Gets the version of this server including any plugins in use
+[09:27:41 INFO]: /warp: Выводит список всех варпов, или перемещает на указанный варп.
+[09:27:41 INFO]: /warpinfo: Отображает информцию об указанном варпе.
+[09:27:41 INFO]: /weather: Устанавливает погоду.
+[09:27:41 INFO]: /whitelist: A Mojang provided command.
+[09:27:41 INFO]: /whois: Показывает имя игрока за никнеймом.
+[09:27:41 INFO]: /workbench: Открывает верстак.
+[09:27:41 INFO]: /world: Перемещает между мирами.
+[09:27:41 INFO]: /worldborder: A Mojang provided command.
+[09:27:41 INFO]: /worth: Вычисляет стоимость указанного предмета или предмета в руке.
