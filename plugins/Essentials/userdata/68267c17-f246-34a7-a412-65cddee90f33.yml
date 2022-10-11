@@ -11,20 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 0
+  lastteleport: 1665505974899
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1665470199111
-  login: 1665469788377
+  logout: 1665507557174
+  login: 1665507276388
 money: '0'
 last-account-name: zero
 logoutlocation:
   world: 549429d0-128b-4ef7-89cc-18071da0c637
   world-name: world
-  x: 116.88986317941394
+  x: 112.4749357415898
+  y: 84.99418737630609
+  z: 327.2842603066249
+  yaw: -32.188232421875
+  pitch: 16.49945068359375
+lastlocation:
+  world: 549429d0-128b-4ef7-89cc-18071da0c637
+  world-name: world
+  x: 121.60314512219338
   y: 85.8681430633933
-  z: 344.95495795516325
-  yaw: -116.60955810546875
-  pitch: 20.099361419677734
+  z: 344.3877544033069
+  yaw: -34.259403228759766
+  pitch: 10.499382972717285
