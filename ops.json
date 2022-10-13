@@ -10,5 +10,11 @@
     "name": "lol",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "02d11fcd-d7ff-3afd-82a6-6d4ca4d2d14c",
+    "name": "zero0_0",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]
