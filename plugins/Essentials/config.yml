@@ -880,7 +880,7 @@ chat:
   # Users with essentials.chat.shout can override this by prefixing their message with an exclamation mark (!)
   # Users with essentials.chat.question can override this by prefixing their message with a question mark (?)
   # You can add command costs for shout/question by adding chat-shout and chat-question to the command costs section.
-  radius: 0
+  radius: 100
 
   # Chat formatting can be done in two ways, you can either define a standard format for all chat.
   # Or you can give a group specific chat format, to give some extra variation.
@@ -902,7 +902,7 @@ chat:
   # {TEAMPREFIX} - The sender's scoreboard team prefix.
   # {TEAMSUFFIX} - The sender's scoreboard team suffix.
 
-  format: '{DISPLAYNAME}: {MESSAGE}'
+  format: '<{DISPLAYNAME}> {MESSAGE}'
   #format: '&7[{GROUP}]&r {DISPLAYNAME}&7:&r {MESSAGE}'
   #format: '&7{PREFIX}&r {DISPLAYNAME}&r &7{SUFFIX}&r: {MESSAGE}'
 

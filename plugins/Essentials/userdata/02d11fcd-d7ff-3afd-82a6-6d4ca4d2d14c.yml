@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1665590745826
-  login: 1665588469494
+  logout: 1665819083103
+  login: 1665819140432
 money: '0'
 last-account-name: zero0_0
 lastlocation:
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: 549429d0-128b-4ef7-89cc-18071da0c637
   world-name: world
-  x: 123.05042554252468
-  y: 85.0
-  z: 342.13121682422513
-  yaw: -170.1084747314453
-  pitch: 41.999595642089844
+  x: 137.90684147230044
+  y: 83.0
+  z: 336.5609827367599
+  yaw: 135.7511444091797
+  pitch: 14.699959754943848
